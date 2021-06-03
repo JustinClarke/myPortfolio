@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oops</title>
+  <!-- Bootstrap Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body class="blinkdiv" style="text-align: center;">
+  <h1 class="display-1" style="padding: 25% 0% 2%; color: #7e7ca6;">404, page not found</h1>
+  <a type="button" class="btn btn-dark" href="https://justinclarke.web.app/">Go Back Home!</a>
+  <style>
+    @-webkit-keyframes blackWhite {  
+      0% { background-color: white; }
+      50% { background-color: white; }
+      51% { background-color: black; }
+      100% { background-color: black; }
+    }
+    .blinkdiv {
+        height: 100px;
+        background-color: black;
+        -webkit-animation-name: blackWhite;  
+        -webkit-animation-iteration-count: infinite;  
+        -webkit-animation-duration: 2s; 
+    }
+  </style>
+</body>
+</html>
