@@ -32,14 +32,14 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href="https://github.com/JustinClarke/JustinClarke/raw/main/Resum%C3%A9.pdf" target="_blank">
+          <Button variant="primary" href="https://github.com/JustinClarke/JustinClarke/raw/main/resume.pdf" target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Education</h3>
+          <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="B. Tech. Computer Science Engineering, GITAM, Vizag "
               date="2018 - Present"
@@ -94,7 +94,7 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href="https://github.com/JustinClarke/JustinClarke/raw/main/Resum%C3%A9.pdf" target="_blank">
+          <Button variant="primary" href="https://github.com/JustinClarke/JustinClarke/raw/main/resume.pdf" target="_blank">
           <AiOutlineDownload />&nbsp;Download CV
           </Button>
         </Row>

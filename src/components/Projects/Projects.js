@@ -27,8 +27,8 @@ function Projects() {
               imgPath={ic}
               isBlog={false}
               title="Instagram Clone"
-              description="My attempt at rebuilding Instaram, built with ReactJS, and hosted on firebase,
-               this app allows you create an account, post your favourite photos and also comment!"
+              description="My attempt at rebuilding Instagram, built with ReactJS, and hosted
+              on firebase, this app allows you create an account, post your favourite photos and also comment!"
               link="https://crud-post-app.web.app/"
             />
           </Col>
@@ -48,9 +48,9 @@ function Projects() {
               imgPath={ls}
               isBlog={false}
               title="LiteStore"
-              description="Built a responsive website(html, css, javascript and bootstrap) 
-              with forms for text and image submission, hosted on google firebase, with 18 pages.
-              The website enables people to list and rent their space to interested parties."
+              description="Developed and implemented web components across 
+              new designs and user interfaces with modern JavaScript frameworks
+              ReactJS, and Bootstrap."
               link="https://litestore.in/"
             />
           </Col>
@@ -60,9 +60,7 @@ function Projects() {
               imgPath={tg}
               isBlog={false}
               title="Typing Game"
-              description="A web-based typing game, with a timed text entry space. 
-              The game has three levels (easy, medium and hard) each with a reducing 
-              time duration to type each word. Made using html, css and javascript."
+              description="Test your typing speed with this interactive app and get scored."
               link="https://typinggame-javascript.netlify.app/"
             />
           </Col>
@@ -72,8 +70,7 @@ function Projects() {
               imgPath={qg}
               isBlog={false}
               title="Quote Generator"
-              description="A quote generator that displays a new quote at the click of a button. I have also
-               included a share to twitter button. Made using html, css and javascript."
+              description="An app that displays a new quote with the twitter api embedded."
               link="https://quotegenerator-website.netlify.app/"
             />
           </Col>
@@ -83,8 +80,8 @@ function Projects() {
               imgPath={td}
               isBlog={false}
               title="To do list"
-              description="An aesthetic to-do List made using html, css and javascript. This app allows you to 
-              add your very own list of things to do an when you're done you could delete them!"
+              description="An app that allows you to add your very own list of 
+              things to do and delete them when you're done."
               link="https://to-do-list-website.netlify.app/"
             />
           </Col>
