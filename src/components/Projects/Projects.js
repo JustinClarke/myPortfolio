@@ -4,11 +4,12 @@ import ProjectCard from "./ProjectCards";
 // import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import ic from "../../Assets/Projects/insta-clone.jpg";
-import ls from "../../Assets/Projects/litestore.jpg";
-import td from "../../Assets/Projects/todo.jpg";
-import qg from "../../Assets/Projects/quote.jpg";
-import tg from "../../Assets/Projects/type.jpg";
+import ic from "../../Assets/Projects/insta.png";
+import ls from "../../Assets/Projects/litestore.png";
+import td from "../../Assets/Projects/todo.png";
+import qg from "../../Assets/Projects/quote.png";
+import tg from "../../Assets/Projects/type.png";
+import dr from "../../Assets/Projects/drop.png";
 
 function Projects() {
   return (
@@ -55,6 +56,18 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dr}
+              isBlog={false}
+              title="DropVaults"
+              // description="An app that allows you to add your very own list of 
+              // things to do and delete them when you're done."
+              link="https://dropvaults.com"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tg}
@@ -85,6 +98,7 @@ function Projects() {
               link="https://to-do-list-website.netlify.app/"
             />
           </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
