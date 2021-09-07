@@ -27,7 +27,7 @@
 
 ## Built With
 
-My personal portfolio <a href="" target="_blank">justin-clarke.web.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="" target="_blank">justinclarke.web.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
@@ -36,7 +36,7 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
-- Vercel
+- Firebase
 
 ## Features
 
