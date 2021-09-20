@@ -5378,7 +5378,7 @@ expand-brackets@^2.1.4:
     extend-shallow "^2.0.1"
     posix-character-classes "^0.1.0"
     regex-not "^1.0.0"
-    snapdragon "^0.8.1"
+    snapdragon "^w"
     to-regex "^3.0.1"
 
 expect@^26.6.0, expect@^26.6.2:
